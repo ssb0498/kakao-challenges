@@ -1,0 +1,65 @@
+.chatprofile {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.chatprofile .chatprofile__top-image-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-1 {
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+}
+.chatprofile .chatprofile__top-image-2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -55px;
+}
+.image-2 {
+  border-radius: 50%;
+  border: black 5px solid;
+}
+.chatprofile__middle {
+  position: relative;
+  top: -35px;
+}
+.chatprofile__middle-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.chatprofile__middle-job {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.4;
+}
+.chatprofile__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 25px;
+}
+.chatprofile__bottom .chatprofile__bottom-follow {
+  background-color: #6a75ff;
+  padding: 20px 70px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #e9edfe;
+}
+.chatprofile__bottom .chatprofile__bottom-message {
+  background-color: #e9edfe;
+  padding: 20px 70px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #6a75ff;
+}

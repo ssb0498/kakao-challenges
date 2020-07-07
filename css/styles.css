@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
+@import "reset.css";
+@import "profilestyles.css";
+@import "airpodsstyles.css";
+body {
+  color: #020202;
+  font-family: "Roboto Mono";
+  background-color: black;
+  padding: 5px 10px;
+  height: 2000px;
+  margin-top: 20px;
+}

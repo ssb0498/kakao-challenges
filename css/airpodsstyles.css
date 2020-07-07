@@ -1,0 +1,52 @@
+.airpodssell {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 35px 20px;
+  margin-top: 20px;
+}
+.airpodssell__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.airpodssell__name {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.airpodssell__detail {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 17px;
+  font-weight: 400;
+  opacity: 0.4;
+  margin-bottom: 30px;
+}
+.airpodssell__priceandstarpoint {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.airpodssell__priceandstarpoint-price {
+  font-size: 23px;
+  font-weight: 600;
+}
+.airpodssell__priceandstarpoint-starpoint {
+  display: flex;
+}
+.airpodssell__priceandstarpoint-starpoint-1 i {
+  color: orange;
+}
+.airpodssell__priceandstarpoint-starpoint-2 i {
+  margin-left: 9px;
+  opacity: 0.2;
+}
+.airpodssell__priceandstarpoint-starpoint-detail {
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 15px;
+}
