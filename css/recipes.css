@@ -1,0 +1,176 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f7fe;
+  font-family: "Changa";
+}
+.bigbox {
+  background-color: #fefefe;
+  width: 320px;
+  height: 620px;
+  margin: 25px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25),
+    0 30px 60px -30px rgba(0, 0, 0, 0.3),
+    inset 0 -2px 6px 0 rgba(10, 37, 64, 0.35);
+}
+.recipes {
+  background-color: #f8f8f8;
+  width: 286px;
+  height: 586px;
+  border-radius: 30px;
+  overflow: scroll;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  position: sticky;
+  top: 0;
+
+  background-color: #f8f8f8;
+  z-index: 2;
+}
+.header-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  font-size: 12px;
+}
+.header-2 span:last-child {
+  color: #f03c51;
+}
+.imgbox {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.korea {
+  width: 120px;
+  height: 75px;
+  border-radius: 15px;
+  background-image: url("../image/한식.jpeg");
+  background-size: 120px 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 26px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 10px rgb(139, 134, 134);
+}
+.japan {
+  width: 120px;
+  height: 75px;
+  border-radius: 15px;
+  background-image: url("../image/일식.jpeg");
+  background-size: 120px 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 1px 1px 10px rgb(139, 134, 134);
+}
+.china {
+  width: 120px;
+  height: 75px;
+  border-radius: 15px;
+  background-image: url("../image/중식.jpeg");
+  background-size: 120px 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 26px;
+  box-shadow: 1px 1px 10px rgb(139, 134, 134);
+}
+.western {
+  width: 120px;
+  height: 75px;
+  border-radius: 15px;
+  background-image: url("../image/양식.jpeg");
+  background-size: 120px 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 1px 1px 10px rgb(139, 134, 134);
+}
+.header-3 {
+  margin: 0px 10px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+.list {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0px 10px 100px rgb(185, 178, 178);
+}
+.list-detail {
+  display: block;
+}
+.list-detail-1 {
+  font-size: 11px;
+}
+.list-detail-2 {
+  margin-top: 5px;
+  font-size: 10px;
+  opacity: 0.3;
+  z-index: 1;
+}
+.fa-chevron-right {
+  font-size: 20px;
+  color: #f03c51;
+}
+.nav {
+  background-color: #ffffff;
+  height: 40px;
+  width: 286px;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+  left: 42px;
+  bottom: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.nav__bar {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+}
+.fa-utensils {
+  color: #f03c51;
+}
